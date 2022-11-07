@@ -1,0 +1,114 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Education</title>
+</head>
+<body>
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner ">
+        <div class="carousel-item active d-md-block">
+            <img src="{{url_for('static', filename='images/img (3).jpg')}}" class="d-block w-100 h-5" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item  d-md-block">
+            <img src="{{url_for('static', filename='images/img (2).jpg')}}" class="d-block w-100 h-5" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+            </div>
+        </div>
+        <div class="carousel-item  d-md-block">
+            <img src="{{url_for('static', filename='images/img (1).jpg')}}" class="d-block w-100 h-5" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Education Under the Govenment of Emiret</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </button>
+</div>
+<div class="container overflow-hidden " style="position:relative;zindex:1000;margin-top:-60px">
+    <div class="row gx-5">
+        <div class="col">
+            <div class="p-3 border opacity-50 ">Custom column padding</div>
+            <div class="card ">
+<!--                <img src="{{url_for('static', filename='images/img (2).jpg')}}" class="card-img-top mr-2 ml-2" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title ">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="p-3 border opacity-50 ">Custom column padding</div>
+            <div class="card ">
+                <!--                <img src="{{url_for('static', filename='images/img (2).jpg')}}" class="card-img-top mr-2 ml-2" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="p-3 border opacity-50 ">Custom column padding</div>
+            <div class="card ">
+                <!--                <img src="{{url_for('static', filename='images/img (2).jpg')}}" class="card-img-top mr-2 ml-2" alt="...">-->
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card-group mt-5" style="margin-top:55px">
+    <div class="card ">
+        <img src="{{url_for('static', filename='images/img (4).jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card ">
+        <img src="{{url_for('static', filename='images/img (5).jpg')}}" class="card-img-top mr-2 ml-2" alt="..."     height="51%";>
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="{{url_for('static', filename='images/img (6).jpg')}}" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+{% endblock %}

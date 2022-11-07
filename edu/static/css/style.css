@@ -1,0 +1,60 @@
+/* stlyle of First assignment*/
+div#navbar{
+    background-color:#2788ca !important;
+    height:45px;
+
+}
+div.onlineshoping{
+    background-color:#198ade;
+    height:742px
+
+ }
+ p#buy{
+     font-size: 60px;
+     position: absolute;
+     margin-top: -326px;
+     margin-left: 637px;
+     color: white;
+ }
+
+img#img-slid-show
+ {
+     position:absolute;
+     margin-top:-712px;
+     margin-left:100px;
+    height: 713px;
+ }
+
+div#menue
+{
+    height:35px;
+    display:flex;
+    justify-content:space-between;
+    padding:5px 300px 8px 300px;
+    vertical-align:middle;
+    position:relative;
+    top:-30px;
+    background-color:#dcedf5;
+}
+
+a#buynow
+{
+    border: 2px solid #198ade;
+    background-color:#198ade;
+    color:white;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+table tr td img
+{
+    height:250px !important;
+    width:300px !important
+}
+
+#product tr td
+{
+    padding: 50px 50px 10px 50px !important;
+    vertical-align:middle;
+
+}
